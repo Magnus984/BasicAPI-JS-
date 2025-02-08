@@ -16,6 +16,7 @@ const server = createServer((req, res) => {
         res.end(JSON.stringify({
             'email': 'tettehmagnus35@gmail.com',
             'current_datetime': new Date().toISOString(),
+            'github_url': 'https://github.com/Magnus984/BasicAPI'
     }))
     } else {
         res.statusCode = 404;
